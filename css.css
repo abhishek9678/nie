@@ -1,0 +1,136 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    font-family: 'Cinzel', serif;
+}
+#opener {
+    background-color: rgb(121, 109, 96);
+    color: antiquewhite;
+    text-align: left;
+    padding: 10% 12% 2% 0%;
+}
+.ot {
+    font-family: 'Cinzel', serif;
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 600;
+    padding-top: 12%;
+}
+.logo {
+
+    width: 80%;
+    height: 100%;
+    padding-left: 30%;
+}
+.first {
+    padding: 5%;
+}
+
+.btn-lg {
+    color: white;
+    margin-top: 1rem;
+    margin: 5% 5% 0 0;
+}
+/* Navigaation-bar */
+.navbar-brand {
+    font-size: 2rem;
+}
+.navbar {
+    padding-top: 1%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.nav-link {
+    font-size: 20px;
+
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: white
+}
+/* middle section */
+#middle {
+    text-align: center;
+    padding: 10% 12%;
+    font-weight: 600;
+    background-color: #fff;
+    z-index: 1;
+    position: relative;
+}
+.des {
+    font-size: 25px;
+}
+.icon {
+    margin-bottom: 1rem;
+
+}
+.icon:hover {
+    background-color: rgb(169, 126, 120);
+}
+
+/* departments */
+#dept {
+
+    background-color: burlywood;
+    text-align: center;
+    color: white;
+}
+
+.dname {
+    font-size: 25px;
+    padding-top: 2rem;
+}
+
+.carousel-inner {
+    padding: 7% 12% 5% 12%;
+}
+
+.carousel-item {
+    padding-top: 1rem;
+}
+
+/* addmission */
+#addmission {
+    text-align: center;
+    padding: 10% 20% 10% 20%;
+
+}
+
+.card-body {
+    margin-top: 15%;
+}
+
+#title {
+    padding-top: 5%;
+}
+
+/* footer */
+#footer {
+    text-align: center;
+    font-size: 30px;
+    background-color: rgb(63, 120, 146);
+    padding: 2% 0 2% 0;
+    color: #fff;
+
+}
+@media(max-width:1080px) {
+    #opener {
+        text-align: center;
+    }
+
+    .logo {
+        height: 80%;
+        width: 60%;
+        padding-top: 50px;
+    }
+
+    .icon {
+        padding-bottom: 2rem;
+    }
+
+    .des {
+        padding-bottom: 1rem;
+    }
+}
